@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AudioTabBarController_Example' do
+  pod 'AudioTabBarController', :path => '../'
+
+  target 'AudioTabBarController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
