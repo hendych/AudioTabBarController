@@ -14,17 +14,13 @@ Pod::Spec.new do |s|
                        AudioTabBarController will show playback audio on the bottom tab bar, and can be shared among view controllers. It's also using UITabBar to keep using native iOS framework instead of UIButton and UIView, so you can assign the tab bar item directly from your UIViewController's tabBarItem property, reducing boilerplate code and easier migration process from native UITabBarController to AudioTabBarController.
                        DESC
 
-  s.homepage         = 'https://github.com/Hendy Christianto/AudioTabBarController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/hendych/AudioTabBarController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hendy Christianto' => 'hendychrst90@gmail.com' }
-  s.source           = { :git => 'https://github.com/Hendy Christianto/AudioTabBarController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hendych/AudioTabBarController.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'AudioTabBarController/Classes/**/*'
   s.resource_bundles = {
       'AudioTabBarController' => ['AudioTabBarController/Assets/*.xib']
   }
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
