@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController" customModule="AudioTabBarController_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="rIy-dr-Vi9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfL-eY-1iK">
+                    <rect key="frame" x="111" y="306" width="153" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="fcL-my-y0g"/>
+                    </constraints>
+                    <state key="normal" title="Hide / Show Audio Bar"/>
+                    <connections>
+                        <action selector="hideOrShowAudioTabButtonOnClick" destination="-1" eventType="touchUpInside" id="G9r-Xy-Ggi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHj-gD-tKr">
+                    <rect key="frame" x="118" y="368" width="139" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="RBx-en-KMv"/>
+                    </constraints>
+                    <state key="normal" title="Hide / Show Tab Bar"/>
+                    <connections>
+                        <action selector="hideOrShowTabBarButtonOnClick" destination="-1" eventType="touchUpInside" id="wvP-6L-DCU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="XfL-eY-1iK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4Sp-b7-260"/>
+                <constraint firstItem="kHj-gD-tKr" firstAttribute="top" secondItem="XfL-eY-1iK" secondAttribute="bottom" constant="8" id="a5n-oW-igE"/>
+                <constraint firstItem="kHj-gD-tKr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ecF-IL-EiP"/>
+                <constraint firstItem="XfL-eY-1iK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mV1-mt-gSJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

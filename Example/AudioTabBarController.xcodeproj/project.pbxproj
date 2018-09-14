@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		230D02840465EA7992223B4F /* Pods_AudioTabBarController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8AB0CCC5718A6A1BD50182 /* Pods_AudioTabBarController_Tests.framework */; };
+		527771C0214A5C3100450427 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527771BF214A5C3100450427 /* FirstViewController.xib */; };
+		527771C7214A63DE00450427 /* AudioPlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527771C6214A63DE00450427 /* AudioPlaybackView.swift */; };
+		527771C9214A63F200450427 /* AudioPlaybackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527771C8214A63F200450427 /* AudioPlaybackView.xib */; };
+		527771CE214B9DF100450427 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527771CC214B9DF100450427 /* DetailViewController.swift */; };
+		527771CF214B9DF100450427 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527771CD214B9DF100450427 /* DetailViewController.xib */; };
+		527771D2214B9EB700450427 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527771D0214B9EB700450427 /* SecondViewController.swift */; };
+		527771D3214B9EB700450427 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527771D1214B9EB700450427 /* SecondViewController.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACD81AFB9204008FA782 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* FirstViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -28,15 +34,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		206756C08CBE80374DB68A1D /* AudioTabBarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AudioTabBarController.podspec; path = ../AudioTabBarController.podspec; sourceTree = "<group>"; };
+		206756C08CBE80374DB68A1D /* AudioTabBarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AudioTabBarController.podspec; path = ../AudioTabBarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2240545D4B9DE088AD2DB6F6 /* Pods-AudioTabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioTabBarController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioTabBarController_Tests/Pods-AudioTabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		302F1131A642692BDF9B8D19 /* Pods-AudioTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioTabBarController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioTabBarController_Example/Pods-AudioTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C7012B1B3EA126F0A2123AE /* Pods-AudioTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioTabBarController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioTabBarController_Tests/Pods-AudioTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		527771BF214A5C3100450427 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		527771C6214A63DE00450427 /* AudioPlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackView.swift; sourceTree = "<group>"; };
+		527771C8214A63F200450427 /* AudioPlaybackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioPlaybackView.xib; sourceTree = "<group>"; };
+		527771CC214B9DF100450427 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		527771CD214B9DF100450427 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		527771D0214B9EB700450427 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		527771D1214B9EB700450427 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AudioTabBarController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioTabBarController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* AudioTabBarController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTabBarController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +57,8 @@
 		88F02D49B07FA5EA684D3889 /* Pods_AudioTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioTabBarController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED3C7A56FD05D461B59EB63 /* Pods-AudioTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioTabBarController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioTabBarController_Example/Pods-AudioTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C8AB0CCC5718A6A1BD50182 /* Pods_AudioTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioTabBarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E618314ADE049935BF2FFF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E05409D904C7D6DC5CB1606C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9E618314ADE049935BF2FFF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E05409D904C7D6DC5CB1606C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,14 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				527771C6214A63DE00450427 /* AudioPlaybackView.swift */,
+				527771C8214A63F200450427 /* AudioPlaybackView.xib */,
+				607FACD71AFB9204008FA782 /* FirstViewController.swift */,
+				527771BF214A5C3100450427 /* FirstViewController.xib */,
+				527771D0214B9EB700450427 /* SecondViewController.swift */,
+				527771D1214B9EB700450427 /* SecondViewController.xib */,
+				527771CC214B9DF100450427 /* DetailViewController.swift */,
+				527771CD214B9DF100450427 /* DetailViewController.xib */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -245,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				527771C9214A63F200450427 /* AudioPlaybackView.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				527771D3214B9EB700450427 /* SecondViewController.xib in Resources */,
+				527771CF214B9DF100450427 /* DetailViewController.xib in Resources */,
+				527771C0214A5C3100450427 /* FirstViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,8 +343,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				527771C7214A63DE00450427 /* AudioPlaybackView.swift in Sources */,
+				607FACD81AFB9204008FA782 /* FirstViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				527771D2214B9EB700450427 /* SecondViewController.swift in Sources */,
+				527771CE214B9DF100450427 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,14 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -456,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

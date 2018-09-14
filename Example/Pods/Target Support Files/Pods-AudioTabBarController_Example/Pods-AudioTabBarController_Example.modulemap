@@ -1,0 +1,6 @@
+framework module Pods_AudioTabBarController_Example {
+  umbrella header "Pods-AudioTabBarController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

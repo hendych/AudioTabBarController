@@ -1,0 +1,16 @@
+PODS:
+  - AudioTabBarController (0.1.0)
+
+DEPENDENCIES:
+  - AudioTabBarController (from `../`)
+
+EXTERNAL SOURCES:
+  AudioTabBarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AudioTabBarController: 37be987d2463b36c1ec421aa00baa7510c8b8c23
+
+PODFILE CHECKSUM: 35bbfdc460ea559c892ce761a85e17a2dadee268
+
+COCOAPODS: 1.5.3

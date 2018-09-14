@@ -1,0 +1,6 @@
+framework module AudioTabBarController {
+  umbrella header "AudioTabBarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

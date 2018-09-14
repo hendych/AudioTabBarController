@@ -3,19 +3,33 @@
 //  AudioTabBarController
 //
 //  Created by Hendy Christianto on 09/13/2018.
-//  Copyright (c) 2018 Hendy Christianto. All rights reserved.
+//  Copyright (c) 2018 CocoaPods. All rights reserved.
 //
 
 import UIKit
+import AudioTabBarController
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let tabBarController = AudioTabBarController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let audioPlayerView = AudioPlaybackView(frame: .zero)
+        let firstViewController = UINavigationController(rootViewController: FirstViewController())
+        let secondViewController = UINavigationController(rootViewController: SecondViewController())
+        secondViewController.view.backgroundColor = .blue
+        
+        tabBarController.addAudioPlaybackView(audioPlayerView)
+        tabBarController.setViewController([firstViewController, secondViewController])
+        
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

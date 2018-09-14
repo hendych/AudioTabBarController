@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D209F02C49F1D50408F578F0C35CBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1055CE5E680D46B8B59D8C8522A29C29 /* AudioTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D248741178D08309D0184EFFD6952B /* AudioTabBarController-dummy.m */; };
+		191001A209AB4BD0F1474C0A2D608354 /* AudioTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E50A5264DAB400EBFFD0B89520E735 /* AudioTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F2CB0FE28824B3AE9C772D2D1F2244 /* Pods-AudioTabBarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C85DB7775F8CFC9163118488E8AC05 /* Pods-AudioTabBarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B5B5487D83FD2EE10CDBE189CDA3202 /* AudioTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D99444F838B21F4466F3A7283D5AB7B /* AudioTabBarController.xib */; };
+		4B9C6B8524F8DDADBBD08DB4CCFAFFF7 /* AudioTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7A9F09CC80EFD8DA9829C7E3AAD80 /* AudioTabBarController.swift */; };
+		542088B3DB482A8CD4CA34B9990FC287 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE3ED68A2D854641BAE191C48AFD5C6 /* Utils.swift */; };
+		5605A08A0123873ADED3E3B4251AD9F2 /* Pods-AudioTabBarController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7699A4054CC20C1EC45F49371AB5372 /* Pods-AudioTabBarController_Tests-dummy.m */; };
+		A590C6D72610DA1E7EE1085417BDF6D9 /* Pods-AudioTabBarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BAFFE56493F386CD897E5E4EF7632 /* Pods-AudioTabBarController_Example-dummy.m */; };
+		B8C0B319EFA53F7C2DCDA490E33500D3 /* Pods-AudioTabBarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA9B3B260382DA96EE15F5864519110 /* Pods-AudioTabBarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D63DF8C7F3DFD54A7623957D6CFA2C /* AudioTabBarController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5A93E5275791058436A4F683726F4CB /* AudioTabBarController.bundle */; };
+		C62E3484111F69845973443615C7A6BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CA7BFA175EC3E0F41A3239BD73410C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15E88CAB5FEE60A81ED4271D988B5F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E139C630E9326783F45E9F475D805DDD;
+			remoteInfo = "AudioTabBarController-AudioTabBarController";
+		};
+		CA0508B4FF8094772039AA15A7768FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD682FD13C617575F48FE02D94E1932B;
+			remoteInfo = "Pods-AudioTabBarController_Example";
+		};
+		D296C82EC45DC483521698EE8CFF0126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB700707071168562E09246CF1BFBB04;
+			remoteInfo = AudioTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C85DB7775F8CFC9163118488E8AC05 /* Pods-AudioTabBarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioTabBarController_Example-umbrella.h"; sourceTree = "<group>"; };
+		05035329A1125CB16D01876BBD126E6A /* AudioTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AudioTabBarController.xcconfig; sourceTree = "<group>"; };
+		0BF56247DDB0D9D24EC149E9F7692F62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1A9928CC4A78CE9B1252343F0C2F9091 /* Pods-AudioTabBarController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioTabBarController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		263FC7CC59EE5A527B13D9964D897FD2 /* Pods-AudioTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		29E50A5264DAB400EBFFD0B89520E735 /* AudioTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		2D99444F838B21F4466F3A7283D5AB7B /* AudioTabBarController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AudioTabBarController.xib; path = AudioTabBarController/Assets/AudioTabBarController.xib; sourceTree = "<group>"; };
+		39330709CB6C90D98703F633CDC15C4E /* AudioTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AudioTabBarController.modulemap; sourceTree = "<group>"; };
+		4392AE8D12D88BCEF57CE11328D9E700 /* Pods-AudioTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5760943DBDF6A0CF224289AF04FC1B66 /* Pods_AudioTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioTabBarController_Tests.framework; path = "Pods-AudioTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579C70A0FD9BA0DB08ABFE398183C2A5 /* Pods-AudioTabBarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioTabBarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F4BAFFE56493F386CD897E5E4EF7632 /* Pods-AudioTabBarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioTabBarController_Example-dummy.m"; sourceTree = "<group>"; };
+		610E47095776C7501FFB525FB447AA7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6393B2B6A21259CA619E49BE2ED2C153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69EE895E88DC9B8842D1AF5BF59E70E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C609E226C1290B40642531C8F3026C7 /* Pods-AudioTabBarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioTabBarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EA7A9F09CC80EFD8DA9829C7E3AAD80 /* AudioTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioTabBarController.swift; path = AudioTabBarController/Classes/AudioTabBarController.swift; sourceTree = "<group>"; };
+		8313F4B05BB591DFC3C62143C74350F1 /* Pods-AudioTabBarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioTabBarController_Example.modulemap"; sourceTree = "<group>"; };
+		865D531462FFEE25A68E680817AA9D29 /* Pods-AudioTabBarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioTabBarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A8B9D14F996D720C827DBDE39F33B6C /* AudioTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AudioTabBarController.framework; path = AudioTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C1F39783128D630BD656BCEBF5D3D2 /* Pods-AudioTabBarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioTabBarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97EE0ECB436CC130E4EB27598D348728 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9B97FE9DDB892695109A0C97F4425EAC /* Pods-AudioTabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioTabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A42D97E58B6F1A3B4D0901D61D1096BE /* Pods-AudioTabBarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioTabBarController_Tests.modulemap"; sourceTree = "<group>"; };
+		A4FAAB88C7F9D40DA5F2E54BFAB808C3 /* Pods-AudioTabBarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioTabBarController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ABE3ED68A2D854641BAE191C48AFD5C6 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		ACA9B3B260382DA96EE15F5864519110 /* Pods-AudioTabBarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioTabBarController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B5A93E5275791058436A4F683726F4CB /* AudioTabBarController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AudioTabBarController.bundle; path = "AudioTabBarController-AudioTabBarController.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C05F492022F7BA6384019CF7BE9A9F /* AudioTabBarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AudioTabBarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7B207E4472A086BBDCA416F27A6AE8A /* Pods-AudioTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF060DB3F8A979103FE6928500F634F3 /* Pods_AudioTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioTabBarController_Example.framework; path = "Pods-AudioTabBarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FB9949E7EA77FB69694D1FA9E7D136 /* AudioTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		E4F404EF04EBB4FBD471A5E699D664A8 /* Pods-AudioTabBarController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioTabBarController_Example-resources.sh"; sourceTree = "<group>"; };
+		E71D73F475EDCE36BC0023813235E035 /* ResourceBundle-AudioTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AudioTabBarController-Info.plist"; sourceTree = "<group>"; };
+		E7699A4054CC20C1EC45F49371AB5372 /* Pods-AudioTabBarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioTabBarController_Tests-dummy.m"; sourceTree = "<group>"; };
+		F4D248741178D08309D0184EFFD6952B /* AudioTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AudioTabBarController-dummy.m"; sourceTree = "<group>"; };
+		FE37344789439ACE5DF84ECEB314320D /* Pods-AudioTabBarController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioTabBarController_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082CA4FA6DE2DB6EF9D1C432B9E0078E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7BFA175EC3E0F41A3239BD73410C74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425B16965AF8CD169433DC2D103BE10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62E3484111F69845973443615C7A6BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6036E37273AAFB103830E0F5AD029B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D209F02C49F1D50408F578F0C35CBA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FDEC46DE4DE4C8A9C3E021E967113D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14DE154EFBA4B68CCAD9A97E0145F305 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5245AAF6628EEB3305D0D32066F9363 /* Pods-AudioTabBarController_Example */,
+				A8F07626C7D6BA41C431B59744B01B13 /* Pods-AudioTabBarController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C60D58CA632B18266D3B9AB8FB0415A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D99444F838B21F4466F3A7283D5AB7B /* AudioTabBarController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6F27EFA17566F45923BDF08E22FEAD21 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ABE3ED68A2D854641BAE191C48AFD5C6 /* Utils.swift */,
+			);
+			name = Utils;
+			path = AudioTabBarController/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BCFD727E51B48C15C7240A14B67CA188 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F88F9E364878AE90F0678F5C2438EC96 /* Products */,
+				14DE154EFBA4B68CCAD9A97E0145F305 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AEA841A557E8379741C858155B2F84B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39330709CB6C90D98703F633CDC15C4E /* AudioTabBarController.modulemap */,
+				05035329A1125CB16D01876BBD126E6A /* AudioTabBarController.xcconfig */,
+				F4D248741178D08309D0184EFFD6952B /* AudioTabBarController-dummy.m */,
+				E1FB9949E7EA77FB69694D1FA9E7D136 /* AudioTabBarController-prefix.pch */,
+				29E50A5264DAB400EBFFD0B89520E735 /* AudioTabBarController-umbrella.h */,
+				610E47095776C7501FFB525FB447AA7F /* Info.plist */,
+				E71D73F475EDCE36BC0023813235E035 /* ResourceBundle-AudioTabBarController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AudioTabBarController";
+			sourceTree = "<group>";
+		};
+		A8F07626C7D6BA41C431B59744B01B13 /* Pods-AudioTabBarController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6393B2B6A21259CA619E49BE2ED2C153 /* Info.plist */,
+				A42D97E58B6F1A3B4D0901D61D1096BE /* Pods-AudioTabBarController_Tests.modulemap */,
+				6C609E226C1290B40642531C8F3026C7 /* Pods-AudioTabBarController_Tests-acknowledgements.markdown */,
+				90C1F39783128D630BD656BCEBF5D3D2 /* Pods-AudioTabBarController_Tests-acknowledgements.plist */,
+				E7699A4054CC20C1EC45F49371AB5372 /* Pods-AudioTabBarController_Tests-dummy.m */,
+				1A9928CC4A78CE9B1252343F0C2F9091 /* Pods-AudioTabBarController_Tests-frameworks.sh */,
+				FE37344789439ACE5DF84ECEB314320D /* Pods-AudioTabBarController_Tests-resources.sh */,
+				ACA9B3B260382DA96EE15F5864519110 /* Pods-AudioTabBarController_Tests-umbrella.h */,
+				9B97FE9DDB892695109A0C97F4425EAC /* Pods-AudioTabBarController_Tests.debug.xcconfig */,
+				263FC7CC59EE5A527B13D9964D897FD2 /* Pods-AudioTabBarController_Tests.release.xcconfig */,
+			);
+			name = "Pods-AudioTabBarController_Tests";
+			path = "Target Support Files/Pods-AudioTabBarController_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCFD727E51B48C15C7240A14B67CA188 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C52E235A342B12E29CE4965357C669E9 /* AudioTabBarController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C52E235A342B12E29CE4965357C669E9 /* AudioTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				7EA7A9F09CC80EFD8DA9829C7E3AAD80 /* AudioTabBarController.swift */,
+				E6E9FC8D8DFBEA2C0D612BD7FB53AFEA /* Pod */,
+				1C60D58CA632B18266D3B9AB8FB0415A /* Resources */,
+				8AEA841A557E8379741C858155B2F84B /* Support Files */,
+				6F27EFA17566F45923BDF08E22FEAD21 /* Utils */,
+			);
+			name = AudioTabBarController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5245AAF6628EEB3305D0D32066F9363 /* Pods-AudioTabBarController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				69EE895E88DC9B8842D1AF5BF59E70E2 /* Info.plist */,
+				8313F4B05BB591DFC3C62143C74350F1 /* Pods-AudioTabBarController_Example.modulemap */,
+				579C70A0FD9BA0DB08ABFE398183C2A5 /* Pods-AudioTabBarController_Example-acknowledgements.markdown */,
+				865D531462FFEE25A68E680817AA9D29 /* Pods-AudioTabBarController_Example-acknowledgements.plist */,
+				5F4BAFFE56493F386CD897E5E4EF7632 /* Pods-AudioTabBarController_Example-dummy.m */,
+				A4FAAB88C7F9D40DA5F2E54BFAB808C3 /* Pods-AudioTabBarController_Example-frameworks.sh */,
+				E4F404EF04EBB4FBD471A5E699D664A8 /* Pods-AudioTabBarController_Example-resources.sh */,
+				01C85DB7775F8CFC9163118488E8AC05 /* Pods-AudioTabBarController_Example-umbrella.h */,
+				4392AE8D12D88BCEF57CE11328D9E700 /* Pods-AudioTabBarController_Example.debug.xcconfig */,
+				B7B207E4472A086BBDCA416F27A6AE8A /* Pods-AudioTabBarController_Example.release.xcconfig */,
+			);
+			name = "Pods-AudioTabBarController_Example";
+			path = "Target Support Files/Pods-AudioTabBarController_Example";
+			sourceTree = "<group>";
+		};
+		E6E9FC8D8DFBEA2C0D612BD7FB53AFEA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B6C05F492022F7BA6384019CF7BE9A9F /* AudioTabBarController.podspec */,
+				0BF56247DDB0D9D24EC149E9F7692F62 /* LICENSE */,
+				97EE0ECB436CC130E4EB27598D348728 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F88F9E364878AE90F0678F5C2438EC96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A93E5275791058436A4F683726F4CB /* AudioTabBarController.bundle */,
+				8A8B9D14F996D720C827DBDE39F33B6C /* AudioTabBarController.framework */,
+				CF060DB3F8A979103FE6928500F634F3 /* Pods_AudioTabBarController_Example.framework */,
+				5760943DBDF6A0CF224289AF04FC1B66 /* Pods_AudioTabBarController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F290772F43DB53F759B3007887456517 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F2CB0FE28824B3AE9C772D2D1F2244 /* Pods-AudioTabBarController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1E5C20FAF517D7CFA49E5A99A47A47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C0B319EFA53F7C2DCDA490E33500D3 /* Pods-AudioTabBarController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA7B7CCDA468BB7B05318A70E78FCC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191001A209AB4BD0F1474C0A2D608354 /* AudioTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E139C630E9326783F45E9F475D805DDD /* AudioTabBarController-AudioTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EAF31789FB17ABA5EDEDDF111D2FD6 /* Build configuration list for PBXNativeTarget "AudioTabBarController-AudioTabBarController" */;
+			buildPhases = (
+				9BA69E492EF299A90547B93B9DF58B95 /* Sources */,
+				E2FDEC46DE4DE4C8A9C3E021E967113D /* Frameworks */,
+				36C0B28A38B1191D47A094AEFC46E71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AudioTabBarController-AudioTabBarController";
+			productName = "AudioTabBarController-AudioTabBarController";
+			productReference = B5A93E5275791058436A4F683726F4CB /* AudioTabBarController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E5166572E008FC6AA45084C7DC445E6E /* Pods-AudioTabBarController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9C8AA814B6352F3121F3EB8C3CFC8C /* Build configuration list for PBXNativeTarget "Pods-AudioTabBarController_Tests" */;
+			buildPhases = (
+				CE8BFC9C0705D4F67E30D9B9AAB6F672 /* Sources */,
+				CB6036E37273AAFB103830E0F5AD029B /* Frameworks */,
+				FD1E5C20FAF517D7CFA49E5A99A47A47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01816792FED1F2977D2498040761403 /* PBXTargetDependency */,
+			);
+			name = "Pods-AudioTabBarController_Tests";
+			productName = "Pods-AudioTabBarController_Tests";
+			productReference = 5760943DBDF6A0CF224289AF04FC1B66 /* Pods_AudioTabBarController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB700707071168562E09246CF1BFBB04 /* AudioTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D982578F72A9D12855C45658C36BC9E /* Build configuration list for PBXNativeTarget "AudioTabBarController" */;
+			buildPhases = (
+				DDE0148F1C24A5C34A78A85C02A064CA /* Sources */,
+				082CA4FA6DE2DB6EF9D1C432B9E0078E /* Frameworks */,
+				64A2B95551639C613AAFED1407EE1A7D /* Resources */,
+				FFA7B7CCDA468BB7B05318A70E78FCC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB13FB58F45B4F46AD0DE963C147CB0 /* PBXTargetDependency */,
+			);
+			name = AudioTabBarController;
+			productName = AudioTabBarController;
+			productReference = 8A8B9D14F996D720C827DBDE39F33B6C /* AudioTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD682FD13C617575F48FE02D94E1932B /* Pods-AudioTabBarController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749544D219CDF15232DDEC845166E96F /* Build configuration list for PBXNativeTarget "Pods-AudioTabBarController_Example" */;
+			buildPhases = (
+				64BF92F73CEF8ABF693C5AF83E7E4624 /* Sources */,
+				425B16965AF8CD169433DC2D103BE10F /* Frameworks */,
+				F290772F43DB53F759B3007887456517 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8060E25F6A257BA762B05C32A1DE0CC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-AudioTabBarController_Example";
+			productName = "Pods-AudioTabBarController_Example";
+			productReference = CF060DB3F8A979103FE6928500F634F3 /* Pods_AudioTabBarController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F88F9E364878AE90F0678F5C2438EC96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB700707071168562E09246CF1BFBB04 /* AudioTabBarController */,
+				E139C630E9326783F45E9F475D805DDD /* AudioTabBarController-AudioTabBarController */,
+				FD682FD13C617575F48FE02D94E1932B /* Pods-AudioTabBarController_Example */,
+				E5166572E008FC6AA45084C7DC445E6E /* Pods-AudioTabBarController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C0B28A38B1191D47A094AEFC46E71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5B5487D83FD2EE10CDBE189CDA3202 /* AudioTabBarController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A2B95551639C613AAFED1407EE1A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D63DF8C7F3DFD54A7623957D6CFA2C /* AudioTabBarController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BF92F73CEF8ABF693C5AF83E7E4624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A590C6D72610DA1E7EE1085417BDF6D9 /* Pods-AudioTabBarController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA69E492EF299A90547B93B9DF58B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8BFC9C0705D4F67E30D9B9AAB6F672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5605A08A0123873ADED3E3B4251AD9F2 /* Pods-AudioTabBarController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0148F1C24A5C34A78A85C02A064CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1055CE5E680D46B8B59D8C8522A29C29 /* AudioTabBarController-dummy.m in Sources */,
+				4B9C6B8524F8DDADBBD08DB4CCFAFFF7 /* AudioTabBarController.swift in Sources */,
+				542088B3DB482A8CD4CA34B9990FC287 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CB13FB58F45B4F46AD0DE963C147CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AudioTabBarController-AudioTabBarController";
+			target = E139C630E9326783F45E9F475D805DDD /* AudioTabBarController-AudioTabBarController */;
+			targetProxy = 15E88CAB5FEE60A81ED4271D988B5F00 /* PBXContainerItemProxy */;
+		};
+		8060E25F6A257BA762B05C32A1DE0CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AudioTabBarController;
+			target = EB700707071168562E09246CF1BFBB04 /* AudioTabBarController */;
+			targetProxy = D296C82EC45DC483521698EE8CFF0126 /* PBXContainerItemProxy */;
+		};
+		B01816792FED1F2977D2498040761403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AudioTabBarController_Example";
+			target = FD682FD13C617575F48FE02D94E1932B /* Pods-AudioTabBarController_Example */;
+			targetProxy = CA0508B4FF8094772039AA15A7768FD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E005D90EA1877BC9C1D67AD74FE640C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05035329A1125CB16D01876BBD126E6A /* AudioTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AudioTabBarController";
+				INFOPLIST_FILE = "Target Support Files/AudioTabBarController/ResourceBundle-AudioTabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AudioTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		180F814C2CE2B4D23061A1591B4F1851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B207E4472A086BBDCA416F27A6AE8A /* Pods-AudioTabBarController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioTabBarController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioTabBarController_Example/Pods-AudioTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1FB8D3F9E1A8207477726513F9DA6687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05035329A1125CB16D01876BBD126E6A /* AudioTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AudioTabBarController";
+				INFOPLIST_FILE = "Target Support Files/AudioTabBarController/ResourceBundle-AudioTabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AudioTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7EC055846F0D7D93FEA14F5070C959F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263FC7CC59EE5A527B13D9964D897FD2 /* Pods-AudioTabBarController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioTabBarController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioTabBarController_Tests/Pods-AudioTabBarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C5929748DE7864AC0F9299B4529279B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4392AE8D12D88BCEF57CE11328D9E700 /* Pods-AudioTabBarController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioTabBarController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioTabBarController_Example/Pods-AudioTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7AF4CEB3A3E0057464604C10D2FEC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B97FE9DDB892695109A0C97F4425EAC /* Pods-AudioTabBarController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioTabBarController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioTabBarController_Tests/Pods-AudioTabBarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD0A305470B4951999CAF7A5775676B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05035329A1125CB16D01876BBD126E6A /* AudioTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AudioTabBarController/AudioTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AudioTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AudioTabBarController/AudioTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = AudioTabBarController;
+				PRODUCT_NAME = AudioTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB05412F7B08A84C16BB696C5FF58696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05035329A1125CB16D01876BBD126E6A /* AudioTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AudioTabBarController/AudioTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AudioTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AudioTabBarController/AudioTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = AudioTabBarController;
+				PRODUCT_NAME = AudioTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9C8AA814B6352F3121F3EB8C3CFC8C /* Build configuration list for PBXNativeTarget "Pods-AudioTabBarController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AF4CEB3A3E0057464604C10D2FEC2F /* Debug */,
+				7EC055846F0D7D93FEA14F5070C959F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EAF31789FB17ABA5EDEDDF111D2FD6 /* Build configuration list for PBXNativeTarget "AudioTabBarController-AudioTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB8D3F9E1A8207477726513F9DA6687 /* Debug */,
+				0E005D90EA1877BC9C1D67AD74FE640C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749544D219CDF15232DDEC845166E96F /* Build configuration list for PBXNativeTarget "Pods-AudioTabBarController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5929748DE7864AC0F9299B4529279B /* Debug */,
+				180F814C2CE2B4D23061A1591B4F1851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D982578F72A9D12855C45658C36BC9E /* Build configuration list for PBXNativeTarget "AudioTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB05412F7B08A84C16BB696C5FF58696 /* Debug */,
+				AD0A305470B4951999CAF7A5775676B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
