@@ -28,12 +28,10 @@ public protocol AudioTabBarControllerDelegate: class {
 open class AudioTabBarController: UIViewController {
     open weak var delegate: AudioTabBarControllerDelegate?
     
-    public var selectedIndex: Int {
-        guard let tabBarItems = tabBar.items,
-            let selectedItem = tabBar.selectedItem,
-            let selectedIndex = tabBarItems.index(of: selectedItem) else { return 0 }
-        
-        return selectedIndex
+    public var selectedIndex = 0 {
+        didSet {
+            setMainViewControllerView(viewControllers[selectedIndex])
+        }
     }
     
     @IBOutlet weak var contentView: UIView!
@@ -130,13 +128,7 @@ open class AudioTabBarController: UIViewController {
         tabBar.setItems(tabItems, animated: false)
         
         // Add first view controller to screen
-        if let firstViewController = viewControllers.first {
-            setMainViewControllerView(firstViewController)
-            
-            guard let indexViewController = viewControllers.index(of: firstViewController) else { return }
-            
-            tabBar.selectedItem = tabBar.items?[indexViewController]
-        }
+        selectedIndex = 0
     }
     
     
@@ -269,6 +261,11 @@ open class AudioTabBarController: UIViewController {
         
         viewController.didMove(toParentViewController: contentViewController)
         
+        
+        if let indexViewController = viewControllers.index(of: viewController) {
+            tabBar.selectedItem = tabBar.items?[indexViewController]
+        }
+        
         selectedViewController = viewController
     }
 }
@@ -279,6 +276,6 @@ extension AudioTabBarController: UITabBarDelegate {
     public func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         guard let tabItemIndex = tabBar.items?.index(of: item) else { return }
         
-        setMainViewControllerView(viewControllers[tabItemIndex])
+        selectedIndex = tabItemIndex
     }
 }

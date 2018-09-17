@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AudioTabBarController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'AudioTabBarController is a custom tab bar controller to mimick playback view like on apple music or spotify.'
   s.description      = <<-DESC
                        AudioTabBarController will show playback audio on the bottom tab bar, and can be shared among view controllers. It's also using UITabBar to keep using native iOS framework instead of UIButton and UIView, so you can assign the tab bar item directly from your UIViewController's tabBarItem property, reducing boilerplate code and easier migration process from native UITabBarController to AudioTabBarController.
