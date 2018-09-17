@@ -34,9 +34,10 @@ open class AudioTabBarController: UIViewController {
         }
     }
     
-    @IBOutlet weak var contentView: UIView!
-    @IBOutlet weak var tabBar: UITabBar!
-    @IBOutlet weak var audioTabBar: UIView!
+    @IBOutlet private(set) public weak var contentView: UIView!
+    @IBOutlet private(set) public weak var tabBar: UITabBar!
+    @IBOutlet private(set) public weak var audioTabBar: UIView!
+    
     @IBOutlet weak var tabBarBottomMargin: NSLayoutConstraint!
     @IBOutlet weak var audioTabBarHeight: NSLayoutConstraint!
     @IBOutlet weak var audioTabBottomMargin: NSLayoutConstraint!
