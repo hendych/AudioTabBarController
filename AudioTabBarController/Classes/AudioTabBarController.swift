@@ -42,7 +42,7 @@ open class AudioTabBarController: UIViewController {
     @IBOutlet weak var audioTabBarHeight: NSLayoutConstraint!
     @IBOutlet weak var audioTabBottomMargin: NSLayoutConstraint!
     
-    private(set) public var isAudioTabBarShowing = true
+    private(set) public var isAudioTabBarShowing = false
     private(set) public var isTabBarShowing = true
     private(set) public var viewControllers = [UIViewController]()
     private(set) public weak var selectedViewController: UIViewController? {
@@ -234,6 +234,18 @@ open class AudioTabBarController: UIViewController {
         
         audioTabBar.addSubview(view)
         audioTabBar.backgroundColor = view.backgroundColor
+    }
+    
+    
+    /// Set audio tab bar height
+    ///
+    /// - Parameter height: desired height.
+    public func setAudioBarHeight(_ height: CGFloat) {
+        audioTabBarHeight.constant = height
+        
+        view.setNeedsUpdateConstraints()
+        view.setNeedsLayout()
+        view.layoutIfNeeded()
     }
     
     
